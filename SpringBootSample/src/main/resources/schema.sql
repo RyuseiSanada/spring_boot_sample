@@ -3,3 +3,4 @@ CREATE TABLE IF NOT EXISTS employee (
 	name VARCHAR(50),
 	age INT
 );
+
