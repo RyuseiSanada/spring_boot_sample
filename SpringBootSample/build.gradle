@@ -29,8 +29,8 @@ dependencies {
 	implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:3.0.0' // 追加
 	implementation 'org.webjars:jquery:3.4.1'        // 追加
     implementation 'org.webjars:bootstrap:4.3.1'     // 追加
-    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.2'
-    implementation 'org.modelmapper:modelmapper:3.1.1'
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3'
+    implementation 'org.modelmapper.extensions:modelmapper-spring:2.3.9'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	runtimeOnly 'com.h2database:h2'
