@@ -35,6 +35,8 @@ dependencies {
     implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3'
     implementation 'org.modelmapper.extensions:modelmapper-spring:2.3.9'
 	implementation 'org.springframework:spring-aop:6.1.6'
+	implementation 'org.springframework.boot:spring-boot-starter-security:3.2.4'
+	implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity5:3.1.2.RELEASE'
     runtimeOnly 'org.aspectj:aspectjweaver:1.9.22'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
